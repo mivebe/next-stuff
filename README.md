@@ -1,1 +1,1 @@
-# next-stuff
+This is a next.js code and projects dump repository.
