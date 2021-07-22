@@ -4,18 +4,18 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 
-export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/articles");
-  const [result] = await res.json()
-  return {
-    props: {
-      result
-    }
-  }
-}
+// export const getStaticProps = async () => {
+//   const res = await fetch("http://localhost:3000/api/articles");
+//   const [result] = await res.json()
+//   return {
+//     props: {
+//       result
+//     }
+//   }
+// }
 
 export default function Home(props) {
-  const result = props.result;
+  // const result = props.result;
   return (
     <div>
       <Head>
