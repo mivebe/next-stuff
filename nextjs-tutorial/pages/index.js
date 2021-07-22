@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//this is bullshit and api folder wont get built so any fetches to it result in deployment build ERROR
 
 // export const getStaticProps = async () => {
 //   const res = await fetch("http://localhost:3000/api/articles");
@@ -32,6 +33,7 @@ export default function Home(props) {
       </p>
       <style jsx>{`.quest{font-size:40px;text-align:right}h1{text-align:center}`}</style>
 
+      {/* not displaying this because of no api folder to fetch ........ */}
       {/* <p style={{ fontSize: "20px" }}>{JSON.stringify(result)}</p>
       <h1>{result.body}</h1> */}
     </div>
