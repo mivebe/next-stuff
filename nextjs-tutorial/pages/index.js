@@ -32,8 +32,8 @@ export default function Home(props) {
       </p>
       <style jsx>{`.quest{font-size:40px;text-align:right}h1{text-align:center}`}</style>
 
-      <p style={{ fontSize: "20px" }}>{JSON.stringify(result)}</p>
-      <h1>{result.body}</h1>
+      {/* <p style={{ fontSize: "20px" }}>{JSON.stringify(result)}</p>
+      <h1>{result.body}</h1> */}
     </div>
   )
 }
